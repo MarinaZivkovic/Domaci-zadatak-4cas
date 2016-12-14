@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<title>Forma-domaci</title>
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
+ 	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+ 	<link rel="stylesheet" type="text/css" href="forma-css.css">
+ </head>
+ <body>
+ 	<h1>Registracija korisnika:</h1>
+ 		<form>
+ 			<div clas="jedan">
+ 				<label for="name">Ime i prezime:</label><br>
+ 				<input type="text" name="fullname" id="name" required>
+ 			</div>
+ 			<div clas="jedan">
+ 				<label for="address">Adresa:</label><br>
+ 				<input type="text" name="address" id="address" required>
+ 			</div>
+ 			<div clas="jedan">
+ 				<label for="phone">Br.telefona:</label><br>
+ 				<input type="tel" name="phone-number" id="phone" placeholder="+381(60)123-45-67">
+ 			</div>
+ 			<div clas="jedan">
+ 				<label for="email">Imejl adresa:</label><br>
+ 				<input type="email" name="email" id="email" required>
+ 			</div>
+ 			<div clas="jedan">
+ 				<p>Tip korisnika:</p>
+ 				<input type="radio" name="type-of-user" value="fizicko lice" checked>Fizicko lice
+ 				<input type="radio" name="type-of-user" value="pravno lice">Pravno lice
+ 			</div>
+ 			<div clas="jedan">
+ 				<p>Registracioni period:</p>
+ 				<select name="dropdown" required>
+ 					<option value="1 year" selected>12 meseci</option>
+ 					<option value="2 years">24 meseca</option>
+ 				</select><br>
+ 			</div>
+ 			<div clas="jedan">
+ 				<label for="username">Korisnicko ime:</label><br>
+ 				<input type="text" name="username" id="username" required>
+ 			</div>
+ 			<div clas="jedan">
+ 				<label for="password">Sifra:</label><br>
+ 				<input type="password" name="password" id="password" minlength="6" maxlength="10" placeholder="min.6 karaktera" required>
+ 			</div>
+ 			<div clas="jedan">
+ 				<label for="confirm">Potvrda sifre:</label><br>
+ 				<input type="password" name="confirm-password" id="confirm" minlength="6" maxlength="6" required>
+ 			</div>
+ 			<div clas="jedan">
+ 				<label for="image">Profilna slika(avatar):</label><br>
+ 				<input type="file" name="fileupload" accept="image/*" id="image">
+ 			</div>
+ 			<div clas="jedan">
+ 				<p>O sebi:</p>
+ 				<textarea rows="5" cols="50" name="description" placeholder="Npr. Vasa interesovanja, hobi..."></textarea>
+ 			</div>
+ 			<div clas="jedan">
+ 				<input type="submit" name="submit" value="Posalji">
+ 				<input type="reset" name="reset" value="Reset">
+ 			</div>
+ 		</form>
+ 	</body>
+ </html>
+

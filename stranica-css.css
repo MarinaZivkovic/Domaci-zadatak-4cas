@@ -1,0 +1,66 @@
+header{
+		font-style: italic;
+		background-color: #001133;
+}
+nav{
+	float: right;
+	font-style: italic;
+}
+h1, a, ol,li{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+body{
+	font-family: "Old Standard TT", serif;
+	font-size: 20px;
+	background-color: #b3ccff;
+}
+#strana{
+	border: 1px solid black;
+	border-radius: 1px;
+	width: 1000px;
+	padding: 40px;
+	margin: 300px auto;
+	position: relative;
+	background-color: white;
+}
+section{
+	margin-top: 80px;
+	margin-left: 20px;
+	text-align: justify;
+	float: right;
+}
+img{
+	float: right;
+	width: 450px;
+	height: 700px;
+	margin-top: 30px;
+	position: relative;
+}
+caption{
+	font-size: 15px;
+	font-style: italic;
+	text-align: left;
+	text-shadow: 1px 2px 2px gray;
+}
+table, tr td{
+	width: 1000px;
+	border-collapse: collapse;
+	text-align: center;
+	margin-bottom: 5px;
+
+}
+tr:nth-child(odd){
+	background-color: #94bdd1;
+}
+tr:nth-child(1){
+	font-weight: 700;
+}
+div.podela{
+	float: left;
+	width: 50%;
+}
